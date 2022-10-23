@@ -1,4 +1,11 @@
-# 2022-10-10 #
+#
+#-------------------------------------------------------------#
+#  创建者：https://v2rayse.com
+#  创建时间：2022-10-23 08:29:04
+#  模版：v2rayse默认模版
+#  节点数量：36
+#-------------------------------------------------------------#
+#
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -6,17 +13,9 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"中国台湾","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.33061222.xyz"}},"server":"211.23.160.243","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国香港A","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.75799779.xyz"}},"server":"202.79.172.53","port":"443","uuid":"30216206-14b7-40e7-995d-61c1219ba584","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国香港B","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.36336719.xyz"}},"server":"45.140.90.252","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国香港C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.50561903.xyz"}},"server":"202.79.171.203","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国香港D","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.12317915.xyz"}},"server":"118.107.244.83","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"中国香港E","server":"111.23.252.216","port":"34214","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"韩国首尔A","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.90078486.xyz"}},"server":"180.215.208.126","port":"443","uuid":"78e1c35c-7f45-4998-b45a-578cef59a5cf","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"韩国首尔B","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.71041779.xyz"}},"server":"61.97.244.80","port":"443","uuid":"e8b77ebd-d651-4847-b7b2-e3f7c762832a","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"韩国首尔C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.83952020.xyz"}},"server":"27.124.8.238","port":"443","uuid":"9e338965-6a07-4a5f-ad97-d57f4a6e6fd3","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.66961389.xyz"}},"server":"23.106.249.2","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国纽约","server":"111.45.22.187","port":"40913","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"美国A","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.12672606.xyz"}},"server":"107.148.215.201","port":"443","uuid":"04e4cdc6-4c60-4280-95a5-62d27ee181dd","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国B","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.22963352.xyz"}},"server":"185.250.220.106","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.57581061.xyz"}},"server":"23.224.15.178","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -28,13 +27,7 @@ proxies:
   - {"type":"vmess","name":"美国圣何塞A","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.66218164.xyz"}},"server":"137.175.12.229","port":"443","uuid":"68d238ce-3ca1-46dc-b833-a0916c829ad3","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国圣何塞B","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.67271513.xyz"}},"server":"142.0.128.252","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"波兰","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.29048458.xyz"}},"server":"5.133.12.63","port":"443","uuid":"4d0247e0-d1da-444c-9cda-8cc20e4e4435","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"芬兰","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.26851414.xyz"}},"server":"185.112.82.136","port":"443","uuid":"3c9b775f-1ffc-4d71-ab46-49adc0013888","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"挪威","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.23970080.xyz"}},"server":"46.29.218.84","port":"443","uuid":"f7a456da-9886-4dd7-b193-4c59a726219c","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"比利时","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.11307965.xyz"}},"server":"37.120.218.236","port":"443","uuid":"ed162daa-ee20-44ed-830f-b522c501387a","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"意大利","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.92507776.xyz"}},"server":"217.138.197.173","port":"443","uuid":"435c978e-2f48-4194-8d04-38cc79a24421","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"土耳其","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.59847959.xyz"}},"server":"185.40.86.198","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"匈牙利","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.63838778.xyz"}},"server":"185.128.26.69","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"爱尔兰","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.89535471.xyz"}},"server":"185.108.128.59","port":"443","uuid":"5aab3936-16d7-4377-8c33-0d77f2d295ee","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"挪威","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.57581061.xyz"}},"server":"23.224.15.178","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"中国北京A","server":"49.232.167.71","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"中国北京B","server":"39.103.165.178","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"中国上海","server":"49.234.84.132","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
@@ -46,23 +39,25 @@ proxies:
   - {"type":"vmess","name":"荷兰A","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.53502959.xyz"}},"server":"154.84.1.4","port":"443","uuid":"1d474f0b-e78d-4af9-bc4a-a467467bc7a7","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"荷兰B","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.60445357.xyz"}},"server":"46.182.107.151","port":"443","uuid":"f5250c4e-f855-4eff-b73c-a02226d42fe7","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"荷兰C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.55321621.xyz"}},"server":"46.182.107.166","port":"443","uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国纽约A","server":"111.45.22.187","port":"40913","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国纽约B","server":"111.23.252.206","port":"59902","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"美国A年付","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.60577328.xyz"}},"server":"104.233.129.99","port":"443","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国CNew","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.67106290.xyz"}},"server":"23.225.41.75","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国ENew","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.23033107.xyz"}},"server":"173.82.170.244","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港A年付","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.12337976.xyz"}},"server":"45.147.24.150","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.33299533.xyz"}},"server":"118.107.245.22","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本大阪","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.70449979.xyz"}},"server":"178.157.94.64","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本东京","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.93820835.xyz"}},"server":"185.160.24.27","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"韩国C","ws-opts":{"path":"/path/051111230910","headers":{"host":"www.83952020.xyz"}},"server":"27.124.8.238","port":"443","uuid":"9e338965-6a07-4a5f-ad97-d57f4a6e6fd3","alterId":"64","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -74,13 +69,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -92,23 +81,25 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -120,13 +111,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -138,23 +123,25 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -166,13 +153,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -184,22 +165,24 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -211,13 +194,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -229,22 +206,24 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -256,13 +235,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -274,22 +247,24 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -301,13 +276,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -319,6 +288,16 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -341,17 +320,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国台湾
       - 中国香港A
-      - 中国香港B
       - 中国香港C
       - 中国香港D
-      - 中国香港E
-      - 韩国首尔A
-      - 韩国首尔B
-      - 韩国首尔C
-      - 新加坡
-      - 美国纽约
       - 美国A
       - 美国B
       - 美国C
@@ -363,13 +334,7 @@ proxy-groups:
       - 美国圣何塞A
       - 美国圣何塞B
       - 波兰
-      - 芬兰
       - 挪威
-      - 比利时
-      - 意大利
-      - 土耳其
-      - 匈牙利
-      - 爱尔兰
       - 中国北京A
       - 中国北京B
       - 中国上海
@@ -381,6 +346,16 @@ proxy-groups:
       - 荷兰A
       - 荷兰B
       - 荷兰C
+      - 美国纽约A
+      - 美国纽约B
+      - 美国A年付
+      - 美国CNew
+      - 美国ENew
+      - 香港A年付
+      - 香港C
+      - 日本大阪
+      - 日本东京
+      - 韩国C
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
