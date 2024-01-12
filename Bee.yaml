@@ -47,10 +47,10 @@ proxies:
   - {"name":"🇩🇪 德国","type":"vmess","server":"89.163.157.146","port":443,"cipher":"auto","uuid":"b8aedf50-c4f5-4255-b73d-3779db661d70","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.67279397.xyz","network":"ws","ws-opts":{"path":"/path/220128071100","headers":{"host":"www.67279397.xyz"}}}
   - {"name":"🇨🇳 中国北京A","type":"vmess","server":"43.138.104.182","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"name":"🇨🇳 中国北京B","type":"vmess","server":"39.103.165.178","port":"56002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"name":"🇨🇳 中国上海","type":"vmess","server":"106.54.212.166","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳 中国安徽","type":"vmess","server":"112.132.212.112","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳 中国上海","type":"vmess","server":"47.100.207.95","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳 中国安徽","type":"vmess","server":"112.132.215.11","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇳 中国山东","type":"vmess","server":"175.27.154.61","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"name":"🇨🇳 中国四川","type":"vmess","server":"114.117.234.12","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"name":"🇨🇳 中国四川","type":"vmess","server":"47.108.200.176","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"name":"🇨🇳 中国江苏","type":"vmess","server":"175.27.154.61","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"name":"🇨🇳 中国广东","type":"vmess","server":"111.230.252.149","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
 proxy-groups:
